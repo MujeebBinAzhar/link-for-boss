@@ -14,17 +14,17 @@ function FlyingDeppe() {
       src="/deppe-broom.png"
       alt="Flying Deppe"
       className="fixed top-24 left-[-400px] w-52 h-auto animate-deppe-fly z-50 pointer-events-none"
+      style={{
+        maxWidth: "1000px",
+      }}
     />
   );
 }
 
 export default function App() {
   return (
-    <div className="bg-black min-h-screen flex justify-center items-center text-white relative overflow-hidden">
+    <div className="main-container">
       <FlyingDeppe />
-      <h1 className="text-4xl font-bold text-center z-10">
-        Hollywood Pepe Presale
-      </h1>
     </div>
   );
 }
